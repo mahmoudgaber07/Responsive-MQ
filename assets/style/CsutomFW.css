@@ -1,0 +1,44 @@
+/*my framework*/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+.visable-xs,.visable-sm,.visable-md,.visable-lg{
+    display: none;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.resposive-image{
+    width: 100%;
+}
+.list-unstyled{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.img-thumnail{
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/*/End-framework/*/
